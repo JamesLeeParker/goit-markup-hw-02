@@ -1,0 +1,156 @@
+/* font-family: Raleway; 400 */
+/* font-family: Roboto; 500, 900, 700, 400*/
+/* color: #212121; */
+/* color: #2196F3; */
+/* color: #757575; */
+
+/* General */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  background-color: var(--wite-color);
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --wite-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  font-family: Raleway;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-span {
+  color: var(--accent-color);
+}
+
+.header .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--wite-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  color: var(--wite-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Main */
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* Description */
+.description .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.description .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Team */
+
+.second-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer */
+.address .link {
+  font-family: Roboto, sans-serif;
+  color: var(--wite-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer-logo {
+  color: var(--wite-color);
+}
+
+.link.foote-contacts {
+  opacity: 0.6;
+}
+
+/* не получается прозрачность в футере */
