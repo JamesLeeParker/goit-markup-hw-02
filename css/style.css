@@ -52,6 +52,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
+a.link:active {
+  color: red;
+}
+
 .link {
   text-decoration: none;
   font-size: 14px;
@@ -64,8 +68,9 @@ ul {
 } */
 
 /* .link:hover,
-.header .link:focus {
-  color: var(--accent-color); */
+.link:focus {
+  color: var(--accent-color);
+} */
 
 /* Hero */
 .hero {
@@ -156,6 +161,11 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* .link:hover,
+.link:hover,
 .link:focus {
-  color: var(--accent-color); */
+  color: var(--accent-color);
+}
+
+/* .link:active {
+  color: red;
+} */
