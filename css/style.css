@@ -25,6 +25,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 
 .logo {
@@ -34,7 +38,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .logo-span {
@@ -68,8 +71,8 @@ a.link:active {
   color: var(--accent-color);
 } */
 
-.link:hover,
-.link:focus {
+a.link:hover,
+a.link:focus {
   color: var(--accent-color);
 }
 
@@ -173,6 +176,9 @@ a.link:active {
 } */
 
 /* portfolio */
+.portfolio {
+  text-decoration: none;
+}
 
 .radio-button {
   color: var(--title-text-color);
@@ -183,4 +189,21 @@ a.link:active {
   letter-spacing: 0.03em;
   cursor: pointer;
   font-family: inherit;
+}
+
+.radio-button:hover,
+.radio-button:focus {
+  color: var(--wite-color);
+  background-color: var(--accent-color);
+}
+
+a.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
 }
