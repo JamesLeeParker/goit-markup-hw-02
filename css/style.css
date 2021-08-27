@@ -27,7 +27,7 @@ ul {
 /* Header */
 
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 26px;
@@ -58,10 +58,14 @@ ul {
   line-height: 1.14;
 }
 
-.header .link:hover,
+/* .header .link:hover,
 .header .link:focus {
   color: var(--accent-color);
-}
+} */
+
+/* .link:hover,
+.header .link:focus {
+  color: var(--accent-color); */
 
 /* Hero */
 .hero {
@@ -125,13 +129,16 @@ ul {
 }
 
 .team .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
 
 /* Footer */
-.address .link {
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer .link {
   font-family: Roboto, sans-serif;
   color: var(--wite-color);
   font-style: normal;
@@ -141,16 +148,14 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.footer {
-  background-color: var(--background-color);
-}
-
 .footer-logo {
   color: var(--wite-color);
 }
 
-.link.foote-contacts {
-  opacity: 0.6;
+.footer .footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-/* не получается прозрачность в футере */
+/* .link:hover,
+.link:focus {
+  color: var(--accent-color); */
