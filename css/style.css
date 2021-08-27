@@ -56,10 +56,6 @@ a {
   letter-spacing: 0.02em;
 }
 
-a.link:active {
-  color: red;
-}
-
 .link {
   text-decoration: none;
   font-size: 14px;
@@ -176,9 +172,6 @@ a.link:focus {
 } */
 
 /* portfolio */
-.portfolio {
-  text-decoration: none;
-}
 
 .radio-button {
   color: var(--title-text-color);
@@ -197,7 +190,7 @@ a.link:focus {
   background-color: var(--accent-color);
 }
 
-a.portfolio-title {
+.portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -206,4 +199,8 @@ a.portfolio-title {
 }
 
 .portfolio-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
