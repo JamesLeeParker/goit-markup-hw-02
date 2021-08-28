@@ -30,6 +30,9 @@ a {
 }
 
 /* Header */
+.header a.curent {
+  color: var(--accent-color);
+}
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -140,11 +143,11 @@ a.link:focus {
 }
 
 /* Footer */
-.footer {
+.footer-section {
   background-color: var(--background-color);
 }
 
-.footer .link {
+.footer-section .link {
   font-family: Roboto, sans-serif;
   color: var(--wite-color);
   font-style: normal;
@@ -158,7 +161,7 @@ a.link:focus {
   color: var(--wite-color);
 }
 
-.footer .footer-contacts {
+.footer-section .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
 
